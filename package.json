@@ -1,7 +1,7 @@
 {
   "name": "todo-list",
   "version": "1.0.0",
-  "description": "",
+  "description": "To do's list project made with modern JS.",
   "main": "index.js",
   "scripts": {
     "watch": "concurrently \\\"npm run serve\\\" \\\"babel src -d docs --presets=es2015 -ws\\\"",
@@ -9,11 +9,22 @@
     "serve": "http-server"
   },
   "author": "Dani Akash S",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.24.1",
+    "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "concurrently": "^3.4.0",
+    "concurrently": "^3.6.1",
     "http-server": "^14.1.0"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiogval/TODO_listing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sergiogval/TODO_listing/issues"
+  },
+  "homepage": "https://github.com/sergiogval/TODO_listing#readme"
 }
